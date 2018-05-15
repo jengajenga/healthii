@@ -1,8 +1,10 @@
-#include <iostream>
 #include "foodDriver.hpp"
+#include <iostream>
+using namespace std;
 
 int main(){
     loadFoodInfoFromFile();
-    saveFoodsToFile();
-    print();
+    saveFoodInfoToFile();
+//    saveFoodsToFile();
+//    print();
 }
